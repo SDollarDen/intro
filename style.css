@@ -1,0 +1,42 @@
+@font-face {
+    font-family: HeyComic;
+    src: url(Hey\ Comic.otf);
+}
+
+body{
+    background-color:#181a1b;
+    color: white;
+    font-family: "HeyComic";
+}
+
+.container{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.social-media{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.pfp{
+    border-radius: 50%;
+    transition: transform 0.1s ease;
+}
+
+
+.pfp:hover{
+    transform: scale(1.01);
+    box-shadow: 0 0 58px rgb(0, 0, 0);
+}
+
+i{
+    margin:10px;
+    transition: transform 0.1s ease;
+}
+
+i:hover{
+    cursor: pointer;
+    color: rgb(160, 172, 148);
+    transform: scale(1.05);
+}
