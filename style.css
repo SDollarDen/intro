@@ -7,6 +7,7 @@ body{
     background-color:#131516;
     color: white;
     font-family: "HeyComic";
+    margin-top:115px;
 }
 
 .container{
@@ -67,8 +68,4 @@ a{
     justify-content:space-evenly;
     z-index: 1000;
     align-items: center;
-}
-
-body{
-    margin-top: 115px;
 }
